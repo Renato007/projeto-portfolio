@@ -22,26 +22,51 @@ a {
 }
 
 #presentation {
-  background-image:url(/projeto-portfolio/img/background.jpeg);
+  background-image: url(/projeto-portfolio/img/background.jpeg);
   background-size: cover;
   background-position: top center;
   position: relative;
+  z-index: 1;
 }
-#presentation h1{
-    display: block;
-    width: fit-content;
-    font-size: 5rem;
-    position: relative;
-    color: white;
+#presentation h1 {
+  display: block;
+  width: fit-content;
+  font-size: 5rem;
+  position: relative;
+  color: white;
 }
 #presentation .cta {
-    display: inline-block;
-    padding: 10px 30px;
-    color: gold;
-    background-color: transparent;
-    border: 2px solid gold;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin-top: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+  color: gold;
+  background-color: transparent;
+  border: 2px solid gold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-top: 20px;
+}
+#presentation .cta:hover {
+  color: white;
+  font-weight: 500;
+  background-color: gold;
+}
+
+#presentation h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+#presentation::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
 }

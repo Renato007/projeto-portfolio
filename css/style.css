@@ -27,3 +27,10 @@ a {
   background-position: top center;
   position: relative;
 }
+#presentation h1{
+    display: block;
+    width: fit-content;
+    font-size: 5rem;
+    position: relative;
+    color: white;
+}

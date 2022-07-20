@@ -21,6 +21,7 @@ a {
   justify-content: center;
 }
 
+/* seção de apresentação */
 #presentation {
   background-image: url(/projeto-portfolio/img/background.jpeg);
   background-size: cover;
@@ -78,13 +79,13 @@ a {
     animation-delay: .5s;
     background-color: gold;
   }
-  #apresentation h1:nth-child(1) span{
+  #presentation h1:nth-child(1) span{
     animation-delay: .5s;
   }
-  #apresentation h1:nth-child(2) span{
+  #presentation h1:nth-child(2) span{
     animation-delay: 1.5s;
   }
-  #apresentation h1:nth-child(3) span{
+  #presentation h1:nth-child(3) span{
     animation-delay: 2.5s;
   }
   
